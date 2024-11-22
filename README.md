@@ -26,7 +26,7 @@ git clone https://github.com/MiracKayikci/Login-Screen-with-Python-GUI-Tkinter.g
 ## Folder Structure 📂
 Once you've cloned the repository, the project structure should look like this:
 
-Login-Screen-with-Python-GUI-Tkinter/
+Login-Screen-with-Python-GUI-Tkinter/ 
 
 │
 ├── images/                # Folder containing image assets
