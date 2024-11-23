@@ -9,7 +9,7 @@ def main():
 
     def open_url():
         import webbrowser
-        webbrowser.open("https://github.com")
+        webbrowser.open("https://github.com/MiracKayikci")
 
     # Main screen
     window = tk.Tk()
