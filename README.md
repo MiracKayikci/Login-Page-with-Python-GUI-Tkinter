@@ -29,16 +29,16 @@ Once you've cloned the repository, the project structure should look like this:
 Login-Screen-with-Python-GUI-Tkinter/ 
 
 │
-├── images/                # Folder containing image assets
-│   ├── login.png          # Login button image
-│   ├── adam.png           # User icon
-│   ├── kilit.png          # Lock icon
-│   ├── buyukresim.png     # Main content image
-│   └── github.png         # GitHub button icon
+├── images/               
+│   ├── login.png          
+│   ├── adam.png           
+│   ├── kilit.png          
+│   ├── buyukresim.png     
+│   └── github.png         
 │
-├── main.py                # Main application file
-├── ui_setup.py            # UI setup file
-└── README.md              # Documentation file
+├── main.py                
+├── ui_setup.py           
+└── README.md              
 
 The images/ folder contains all the image assets used in the application. The main.py file is the main application file where the logic for the login screen resides. The ui_setup.py file is used to organize and set up the user interface components.
 
@@ -53,9 +53,12 @@ This will launch the login screen in a new window. You can enter the predefined 
 
 ## Components 🧩
 Main Screen: The login screen consists of a user icon, a lock icon for password input, and a login button.
-GitHub Button: Clicking the GitHub button will open the project's repository in your web browser.
-Date and Time: The top of the window shows the current date and time, which is updated every second using the update_datetime function in main.py.
+
+- GitHub Button: Clicking the GitHub button will open the project's repository in your web browser.
+- Date and Time: The top of the window shows the current date and time, which is updated every second using the update_datetime function in main.py.
 ## Code Explanation 📚
-UI Setup: The ui_setup.py file handles the layout and visual components of the GUI. It defines how the window is divided into top, middle, and bottom frames. The middle section contains the user and password input fields, along with buttons for login and GitHub.
-Login Logic: The login logic in main.py validates the entered credentials. If the credentials are correct, the application closes. If they are incorrect, it shows an error message and decrements the attempts counter.
-Date and Time Update: The current date and time are displayed on the window and updated every second using the update_datetime function in main.py
+- UI Setup: The ui_setup.py file handles the layout and visual components of the GUI. It defines how the window is divided into top, middle, and bottom frames. The middle section contains the user and password input fields, along with buttons for login and GitHub.
+
+- Login Logic: The login logic in main.py validates the entered credentials. If the credentials are correct, the application closes. If they are incorrect, it shows an error message and decrements the attempts counter.
+
+- Date and Time Update: The current date and time are displayed on the window and updated every second using the update_datetime function in main.py
