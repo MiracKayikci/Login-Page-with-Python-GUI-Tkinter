@@ -5,7 +5,7 @@ user_info = {
     "admin": "admin",
      "try" : "try"
 }
-
+attempts = 3 
 # Login check
 def validate_login(username, password, window, attempts_label):
     global attempts
