@@ -72,8 +72,7 @@ def setup_ui(window, login_callback, open_url_callback, attempts):
     other_image_label = tk.Label(right_frame, image=image_references['large_image'], bg='white')
     other_image_label.place(relx=0.5, rely=0.5, anchor='center')
 
-    attempts_label = tk.Label(left_frame, text=f"Attempts: {attempts}", font=("Arial", 8, "bold"), bg='white',
-                              fg="#00008B")
+    attempts_label = tk.Label(left_frame, text=f"Attempts: {attempts}", font=("Arial", 8, "bold"), bg='white',fg="#00008B")
     attempts_label.place(x=72, y=140)
 
     # Separator
